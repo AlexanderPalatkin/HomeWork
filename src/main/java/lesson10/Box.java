@@ -30,5 +30,4 @@ public class Box<T extends Fruit>{
         anotherBox.box.addAll(this.box);
         this.box.clear();
     }
-
 }
