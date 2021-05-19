@@ -1,6 +1,6 @@
 package lesson13;
 
-public class Car implements Runnable {
+public class Car implements Runnable{
     private static int CARS_COUNT;
     private Race race;
     private int speed;
@@ -17,7 +17,7 @@ public class Car implements Runnable {
         CARS_COUNT++;
         this.name = "Участник #" + CARS_COUNT;
     }
-    @Override
+
     public void run() {
         try {
             System.out.println(this.name + " готовится");
